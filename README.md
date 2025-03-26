@@ -55,8 +55,7 @@
       <textarea name="message" placeholder="Tell us what you need printed..." rows="5" required></textarea>
       <button type="submit">Submit Request</button>
     </form>
-    <script>
-      const scriptURL = 'https://script.google.com/macros/s/YOUR_GOOGLE_SCRIPT_ID/exec';
+  [  <script>const scriptURL = 'https://script.google.com/macros/s/your-real-id/exec';](https://script.google.com/macros/s/AKfycbz_ZI8yxfGOHCJ--FEmimKLiLKJ4WLpA5uihl_irgl285_XHwVTiO6WmbOR4uQZ-iJz/exec)
       const form = document.forms['submit-to-google-sheet'];
 
       form.addEventListener('submit', e => {
