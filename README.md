@@ -1,37 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Main & Co. Custom Printing and Design</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f8f8; }
+    header { background: #1e1e1e; color: white; padding: 20px; text-align: center; }
+    nav { background: #333; padding: 10px; text-align: center; }
+    nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+    section { padding: 40px 20px; max-width: 1200px; margin: auto; }
+    .services, .contact { background: white; margin: 20px 0; padding: 20px; border-radius: 8px; }
+    footer { background: #1e1e1e; color: white; text-align: center; padding: 15px; }
+    .cta-button { display: inline-block; background: #ff6600; color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; margin-top: 20px; }
+    form input, form textarea { width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc; }
+    form button { background-color: #ff6600; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Main & Co. Custom Printing and Design</h1>
+    <p>High-Quality Custom Printing for Every Project</p>
+  </header>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-# Main & Co. Custom Printing and Design
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Business Cards, Flyers & Brochures</li>
+      <li>Banners, Posters, and Yard Signs</li>
+      <li>Custom Apparel (T-Shirts, Hoodies, etc.)</li>
+      <li>Stickers, Labels, and Packaging</li>
+      <li>Church & Event Materials</li>
+    </ul>
+    <a href="#contact" class="cta-button">Get a Quote</a>
+  </section>
 
-Welcome to the official website source for **Main & Co. Custom Printing and Design** — a high-quality, reliable printing shop offering custom design and print services for businesses, churches, events, and more.
+  <section id="about" class="services">
+    <h2>About Us</h2>
+    <p>We’re a passionate, reliable print shop dedicated to helping your business, ministry, or personal brand stand out. Whether you're ordering in bulk or a small custom batch, we deliver with quality, speed, and service you can trust.</p>
+  </section>
 
-## 💻 Live Site
-Once deployed, your site will be available at:
-https://yourusername.github.io/your-repo-name/
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Ready to place your order or have questions? Fill out the form below and we'll get in touch shortly.</p>
+    <form name="submit-to-google-sheet">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="phone" placeholder="Your Phone Number">
+      <textarea name="message" placeholder="Tell us what you need printed..." rows="5" required></textarea>
+      <button type="submit">Submit Request</button>
+    </form>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/YOUR_GOOGLE_SCRIPT_ID/exec';
+      const form = document.forms['submit-to-google-sheet'];
 
-## 🛠️ Features
-- Clean, responsive HTML5 layout
-- Sections for Services, About, and Contact
-- Interactive contact form connected to Google Sheets via Apps Script
-- Simple styling using vanilla CSS
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then(response => alert('Thank you! Your request has been submitted.'))
+          .catch(error => alert('Something went wrong. Please try again.'))
+      });
+    </script>
+  </section>
 
-## 🧾 How to Use
-
-### 1. Clone or Upload
-You can upload the `index.html` file directly to:
-- GitHub Pages
-- Netlify
-- Vercel
-- Or your own hosting platform
-
-### 2. Set Up the Google Sheets Contact Form
-- Create a Google Sheet with headers: `name`, `email`, `phone`, `message`
-- Use the provided Google Apps Script and deploy it as a web app
-- Paste the deployment URL into your `scriptURL` variable in the form script
-
-### 3. Customize
-Update your:
-- Business name
-- Email, phone, or social links
-- Services and imagery if needed
-
-## 📄 License
-This project is free to use for your personal or business purposes.
+  <footer>
+    <p>&copy; 2024 Main & Co. Custom Printing and Design. All rights reserved.</p>
+  </footer>
+</body>
+</html>
