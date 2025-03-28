@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -7,6 +7,7 @@
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f8f8; }
     header { background: #1e1e1e; color: white; padding: 20px; text-align: center; }
+    header img { max-width: 150px; margin-bottom: 10px; }
     nav { background: #333; padding: 10px; text-align: center; }
     nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
     section { padding: 40px 20px; max-width: 1200px; margin: auto; }
@@ -20,12 +21,11 @@
 </head>
 <body>
   <header>
-    <header>
-  <img src="logo.png" alt="Main & Co. Logo" style="max-width: 150px; margin-bottom: 10px;">
-  <h1>Main & Co. Custom Printing and Design</h1>
-  <p>High-Quality Custom Printing for Every Project</p>
-</header>
+    <img src="logo.png" alt="Main & Co. Logo">
+    <h1>Main & Co. Custom Printing and Design</h1>
+    <p>High-Quality Custom Printing for Every Project</p>
   </header>
+
   <nav>
     <a href="#services">Services</a>
     <a href="#about">About</a>
