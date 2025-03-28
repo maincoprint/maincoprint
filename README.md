@@ -21,10 +21,10 @@
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Main & Co. Logo">
-    <h1>Main & Co. Custom Printing and Design</h1>
-    <p>High-Quality Custom Printing for Every Project</p>
-  </header>
+  <img src="logo.png" alt="Main & Co. Logo" style="width: 120px; height: auto; margin-bottom: 10px; display: block; margin-left: auto; margin-right: auto;">
+  <h1>Main & Co. Custom Printing and Design</h1>
+  <p>High-Quality Custom Printing for Every Project</p>
+</header>
 
   <nav>
     <a href="#services">Services</a>
