@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -20,8 +20,11 @@
 </head>
 <body>
   <header>
-    <h1>Main & Co. Custom Printing and Design</h1>
-    <p>High-Quality Custom Printing for Every Project</p>
+    <header>
+  <img src="logo.png" alt="Main & Co. Logo" style="max-width: 150px; margin-bottom: 10px;">
+  <h1>Main & Co. Custom Printing and Design</h1>
+  <p>High-Quality Custom Printing for Every Project</p>
+</header>
   </header>
   <nav>
     <a href="#services">Services</a>
