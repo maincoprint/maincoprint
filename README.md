@@ -15,6 +15,7 @@
     .cta-button { display: inline-block; background: #ff6600; color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; margin-top: 20px; }
     form input, form textarea { width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc; }
     form button { background-color: #ff6600; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
+    #form-message { display: none; margin-top: 15px; font-weight: bold; }
   </style>
 </head>
 <body>
@@ -54,15 +55,27 @@
       <input type="text" name="phone" placeholder="Your Phone Number">
       <textarea name="message" placeholder="Tell us what you need printed..." rows="5" required></textarea>
       <button type="submit">Submit Request</button>
+      <p id="form-message"></p>
     </form>
-  [  <script>const scriptURL = 'https://script.google.com/macros/s/your-real-id/exec';](https://script.google.com/macros/s/AKfycbz_ZI8yxfGOHCJ--FEmimKLiLKJ4WLpA5uihl_irgl285_XHwVTiO6WmbOR4uQZ-iJz/exec)
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzYFupJtyLkSdKg3jm0D-XuIqHHs8vJ_ERsFh9i3JpPAbxGb6vq2OW9KQ1DL4-b0gJ9/exec';
       const form = document.forms['submit-to-google-sheet'];
+      const message = document.getElementById('form-message');
 
       form.addEventListener('submit', e => {
         e.preventDefault();
         fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-          .then(response => alert('Thank you! Your request has been submitted.'))
-          .catch(error => alert('Something went wrong. Please try again.'))
+          .then(response => {
+            message.style.display = 'block';
+            message.style.color = 'green';
+            message.textContent = '✅ Thank you! Your request has been submitted.';
+            form.reset();
+          })
+          .catch(error => {
+            message.style.display = 'block';
+            message.style.color = 'red';
+            message.textContent = '⚠️ Something went wrong. Please try again.';
+          });
       });
     </script>
   </section>
