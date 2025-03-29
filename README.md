@@ -3,20 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f8f8; }
-    header { background: #1e1e1e; color: white; padding: 20px; text-align: center; }
-    header img { max-width: 150px; margin-bottom: 10px; }
-    nav { background: #333; padding: 10px; text-align: center; }
-    nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
-    section { padding: 40px 20px; max-width: 1200px; margin: auto; }
-    .services, .contact { background: white; margin: 20px 0; padding: 20px; border-radius: 8px; }
-    footer { background: #1e1e1e; color: white; text-align: center; padding: 15px; }
-    .cta-button { display: inline-block; background: #ff6600; color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; margin-top: 20px; }
-    form input, form textarea { width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc; }
-    form button { background-color: #ff6600; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
-    #form-message { display: none; margin-top: 15px; font-weight: bold; }
-  </style>
 </head>
 <body>
   <header>
