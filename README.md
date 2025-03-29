@@ -35,11 +35,14 @@
   <section id="services" class="services">
     <h2>Our Services</h2>
     <ul>
-      <li>Business Cards, Flyers & Brochures</li>
+      <li>Business Cards, Door Hangers, Flyers & Brochures</li>
       <li>Banners, Posters, and Yard Signs</li>
       <li>Custom Apparel (T-Shirts, Hoodies, etc.)</li>
       <li>Stickers, Labels, and Packaging</li>
-      <li>Church & Event Materials</li>
+      <li>Custom one off projects</li>
+      <li>Step & Repeat Banners</li>
+      <li>Church & Event Tradeshow Materials</li>
+      <li>Contact Us Below To Make Your Project Come To Life</li>
     </ul>
     <a href="#contact" class="cta-button">Get a Quote</a>
   </section>
