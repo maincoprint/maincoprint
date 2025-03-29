@@ -46,7 +46,7 @@
 
   <section id="about" class="services">
     <h2>About Us</h2>
-    <p>We’re a passionate, reliable print shop dedicated to helping your business, ministry, or personal brand stand out. Whether you're ordering in bulk or a small custom batch, we deliver with quality, speed, and service you can trust.</p>
+    <p>At Main & Co., we’re a passionate and dependable print shop committed to helping your business, ministry, or personal brand stand out. Whether you're ordering in bulk or need a single custom piece, we deliver with unmatched quality, speed, and service you can trust.</p>
   </section>
 
   <section id="contact" class="contact">
