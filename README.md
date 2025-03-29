@@ -21,7 +21,7 @@
 </head>
 <body>
   <header>
-  <img src="logo.png" alt="Main & Co. Logo" style="width: 180px; height: auto; margin-bottom: 15px; display: block; margin-left: auto; margin-right: auto;">
+  <img src="logo.png" alt="Main & Co. Logo" style="width: 250px; height: auto; margin-bottom: 40px; display: block; margin-left: auto; margin-right: auto;">
   <h1>Main & Co. Custom Printing and Design</h1>
   <p>High-Quality Custom Printing for Every Project</p>
 </header>
