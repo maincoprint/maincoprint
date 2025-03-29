@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
+  <title>Main & Co. Custom Printing and Design</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f8f8; }
     header { background: #1e1e1e; color: white; padding: 20px; text-align: center; }
@@ -12,17 +12,18 @@
     section { padding: 40px 20px; max-width: 1200px; margin: auto; }
     .services, .contact { background: white; margin: 20px 0; padding: 20px; border-radius: 8px; }
     footer { background: #1e1e1e; color: white; text-align: center; padding: 15px; }
-    .cta-button { display: inline-block; background: #ff6600; color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; margin-top: 20px; }
+    .cta-button { display: inline-block; background: #000; color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; margin-top: 20px; }
     form input, form textarea { width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc; }
-    form button { background-color: #ff6600; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
+    form button { background-color: #000; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
     #form-message { display: none; margin-top: 15px; font-weight: bold; }
   </style>
+</head>
 <body>
   <header>
-  <img src="logo.png" alt="Main & Co. Logo" style="width: 250px; height: auto; margin-bottom: 40px; display: block; margin-left: auto; margin-right: auto;">
-  <h1>Main & Co. Custom Printing and Design</h1>
-  <p>High-Quality Custom Printing for Every Project</p>
-</header>
+    <img src="logo.png" alt="Main & Co. Logo" style="width: 120px; height: auto; margin-bottom: 10px; display: block; margin-left: auto; margin-right: auto;">
+    <h1>Main & Co. Custom Printing and Design</h1>
+    <p>High-Quality Custom Printing for Every Project</p>
+  </header>
 
   <nav>
     <a href="#services">Services</a>
@@ -33,21 +34,18 @@
   <section id="services" class="services">
     <h2>Our Services</h2>
     <ul>
-      <li>Business Cards, Door Hangers, Flyers & Brochures</li>
+      <li>Business Cards, Flyers & Brochures</li>
       <li>Banners, Posters, and Yard Signs</li>
       <li>Custom Apparel (T-Shirts, Hoodies, etc.)</li>
       <li>Stickers, Labels, and Packaging</li>
-      <li>Custom one off projects</li>
-      <li>Step & Repeat Banners</li>
-      <li>Church & Event Tradeshow Materials</li>
-      <li>Contact Us Below To Make Your Project Come To Life</li>
+      <li>Church & Event Materials</li>
     </ul>
     <a href="#contact" class="cta-button">Get a Quote</a>
   </section>
 
   <section id="about" class="services">
     <h2>About Us</h2>
-    <p>At Main & Co., we’re a passionate and dependable print shop committed to helping your business, ministry, or personal brand stand out. Whether you're ordering in bulk or need a single custom piece, we deliver with unmatched quality, speed, and service you can trust.</p>
+    <p>At Main & Co., we’re a passionate and dependable print shop committed to helping your business, ministry, or personal brand stand out. Whether you're ordering in bulk or need a single custom piece, we deliver with unmatched quality, speed, and service you can trust. <strong>No job is too small or too large</strong> — if you can dream it, we can print it.</p>
   </section>
 
   <section id="contact" class="contact">
