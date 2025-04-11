@@ -82,8 +82,7 @@
   </section>
 
   <footer>
-    <p>&copy; 2024 Main & Co. Custom Printing and Design. All rights reserved.</p>
+    <p>&copy; 2025 Main & Co. Custom Printing and Design. All rights reserved.</p>
   </footer>
 </body>
 </html>
-
